@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gustavo Gomes - Redes Sociais</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+            text-align: center;
+        }
+        #header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+        }
+        #container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .social-link {
+            display: inline-block;
+            margin: 10px;
+        }
+        .social-link img {
+            width: 100px;
+            height: auto;
+            border-radius: 50%;
+            transition: transform 0.3s ease-in-out;
+        }
+        .social-link img:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <h1>Gustavo Gomes</h1>
+    </div>
+    <div id="container">
+        <h2>Minhas Redes Sociais</h2>
+        <div class="social-link">
+            <a href="https://www.youtube.com/channel/UCfwD5qak0rLG6g8g7DgZyng?view_as=subscriber" target="_blank">
+                <img src="imagens/youtube.png" alt="YouTube">
+            </a>
+        </div>
+        <div class="social-link">
+            <a href="https://www.instagram.com/gustavo_gomes_oficial/" target="_blank">
+                <img src="imagens/instagram.jpg" alt="Instagram">
+            </a>
+        </div>
+        <div class="social-link">
+            <a href="https://chat.whatsapp.com/Fcn7EiJFzm43qcUh2nZ68T" target="_blank">
+                <img src="imagens/whatsapp.png" alt="WhatsApp">
+            </a>
+        </div>
+        <div class="social-link">
+            <a href="https://discord.gg/3SDEf4AW" target="_blank">
+                <img src="imagens/discord.png" alt="Discord">
+            </a>
+        </div>
+    </div>
+
+    <div id="video-container"></div>
+
+    <script>
+        // Função para adicionar um vídeo do YouTube ao final da página
+        function addYouTubeVideo(videoId) {
+            var videoContainer = document.getElementById("video-container");
+            var iframe = document.createElement("iframe");
+            iframe.width = "560";
+            iframe.height = "315";
+            iframe.src = "https://www.youtube.com/embed/" + videoId;
+            iframe.frameBorder = "0";
+            iframe.allowFullscreen = true;
+            videoContainer.appendChild(iframe);
+        }
+
+        // Chamada da função para adicionar o vídeo do YouTube
+        addYouTubeVideo("acab7DgaYrc");
+    </script>
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INSCREVA-SE</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            text-align: center;
+        }
+        .blinking {
+            animation: blinker 1s linear infinite;
+            color: red;
+        }
+        @keyframes blinker {
+            50% {
+                opacity: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1 class="blinking">INSCREVA-SE</h1>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus Vídeos</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        #videos-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+        }
+        .video-card {
+            width: 300px;
+            margin: 20px;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .video-card h2 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        .video-card p {
+            font-size: 14px;
+            color: #666;
+        }
+        .subscribe-button {
+            background-color: #ff0000;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            text-decoration: none;
+            display: inline-block;
+        }
+        .subscribe-button:hover {
+            background-color: #cc0000;
+        }
+    </style>
+
+        <!-- Botão de inscrição -->
+        <button class="subscribe-button" onclick="subscribe()">Inscreva-se</button>
+    </div>
+
+    <script>
+        // Função para redirecionar para a página de inscrição do canal
+        function subscribe() {
+            window.location.href = 'https://www.youtube.com/channel/UCfwD5qak0rLG6g8g7DgZyng?view_as=subscriber';
+        }
+    </script>
+
+    <h1>
+        
+    </h1>
+
+<div id="header">
+        <div id="footer">
+        <p>&copy; 2024 Gustavo Gomes de Sousa </p>
+    </div>
+    </div>
+
+</body>
+</html>
